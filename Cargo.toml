@@ -1,0 +1,10 @@
+[package]
+name = "devilution-rust-poc"
+version = "0.1.0"
+authors = ["Dennis Duda <git@seri.tools>"]
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+crate-type = ["staticlib"]
